@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #ffffffbf;
+  background-color: #f2f2f2;
+  font: 400 15px "Lexend Deca", sans-serif;
+  padding: 88px 0;
+}
+
+/* Screen readers only */
+.visually-hidden:not(:focus, :active) {
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
